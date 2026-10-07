@@ -1,0 +1,20 @@
+# Dataset (about 3 GB) — download it yourself, see README.md
+data/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local working files
+01_explore_and_prepare_data_original.ipynb
+notebook_review.html
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
