@@ -19,8 +19,6 @@ Nothing about the night being predicted is used as an input, to prevent informat
 
 This project uses the **PMData** dataset: <https://osf.io/vx4bk/overview>
 
-[TODO: add exact download instructions, the dataset's licence, and how it should be cited]
-
 The data is not included in this repository (it is about 3 GB). After downloading it, place it so that the folder layout looks like this:
 
 ```
@@ -59,14 +57,3 @@ Then run all cells from top to bottom.
 4. **Combine activity and sleep**: one row per participant per day, matched to the following night's sleep; participant p12 and unreliable nights (daytime sleep, days without step data) are removed
 5. **Model table**: time-of-day inputs, activity types turned into numbers
 6. **Train and test**: random forest on a random 80/20 split, with error measures, a predicted-vs-real chart, and which inputs the model relies on
-
-## Results (first iteration)
-
-| Measure | Random forest |
-|---|---|
-| Average error (MAE) | 52 minutes |
-| RMSE | 69 minutes |
-| R² | 0.05 |
-| Nights within 60 minutes | 65.6% |
-
-The model relies mostly on recent sleep (the 3-night average); daytime activity adds very little. See the notebook for the full analysis and its limitations.
