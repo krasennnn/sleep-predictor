@@ -18,3 +18,6 @@ notebook_review.html
 .DS_Store
 .vscode/
 .idea/
+
+# PyTorch Lightning training logs
+lightning_logs/

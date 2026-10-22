@@ -3,3 +3,7 @@ matplotlib>=3.11
 seaborn>=0.13
 scikit-learn>=1.9
 jupyterlab>=4.5
+statsmodels>=0.14
+torch>=2.14
+lightning>=2.6
+torchmetrics>=1.9
