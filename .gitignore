@@ -21,3 +21,9 @@ notebook_review.html
 
 # PyTorch Lightning training logs
 lightning_logs/
+
+# Html reports
+*.html
+
+# Claude Code local settings
+.claude/
