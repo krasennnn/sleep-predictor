@@ -7,3 +7,4 @@ statsmodels>=0.14
 torch>=2.14
 lightning>=2.6
 torchmetrics>=1.9
+shap>=0.54

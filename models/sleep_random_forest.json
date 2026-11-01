@@ -1,0 +1,24 @@
+{
+  "features": [
+    "resting_heart_rate",
+    "is_female",
+    "is_evening_type",
+    "fatigue",
+    "readiness",
+    "day_sin",
+    "day_cos",
+    "past_7_sleep_minutes"
+  ],
+  "target": "next_sleep_minutes (minutes of sleep the following night)",
+  "scikit_learn_version": "1.9.0",
+  "feature_notes": {
+    "resting_heart_rate": "beats per minute, from Fitbit",
+    "is_female": "1 = female, 0 = male",
+    "is_evening_type": "1 = B person (evening type), 0 = A person",
+    "fatigue": "morning report score 1-5 (higher = fresher)",
+    "readiness": "morning report score 0-10",
+    "day_sin": "sin(2 * pi * weekday / 7), weekday 0 = Monday",
+    "day_cos": "cos(2 * pi * weekday / 7), weekday 0 = Monday",
+    "past_7_sleep_minutes": "average sleep of the previous seven recorded nights, including the night that ended this morning"
+  }
+}
