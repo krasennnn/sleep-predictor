@@ -28,3 +28,5 @@ lightning_logs/
 # Claude Code local settings
 .claude/
 AGENTS.md
+# Old local working files
+archive/
